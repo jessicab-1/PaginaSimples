@@ -1,0 +1,67 @@
+/* Apresentação e aplicação de estilos */
+
+:root {
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle; /*ponto círculo*/
+}
+
+.list {
+    list-style: square; /*pontos quadrados*/
+}
+
+.light-theme {
+    --bg: var(--green); /* bg: background */
+    --fontColor: var(--black); /* fontColor: fonte*/
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+/* eliminar o contorno do botão quando for selecionado / focado*/
+.btn:focus {
+    outline-style: none;
+}
+
+
+
+
+
+

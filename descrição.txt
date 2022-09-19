@@ -1,0 +1,25 @@
+Criando um site simples usando 3 arquivos separados:
+
+Html: para estruturar a página e conteúdo
+CSS: apresentação e aplicação de estilos
+JavaScript: comportamento e interatividade
+
+Configurar 3 arquivos ajuda a manter organizado.
+Extensão sugerida para usar no VS Code: Open in Browser, ajuda
+a abrir o site rapidamente no navegador
+
+
+Estilizar os elementos HTML na página, há 2 formas de escrever o código CSS:
+- no cabeçalho do site: CSS interno
+- numa página separada: CSS externo
+
+Tag <link> geralmente usada para vincular as folhas de estilo (CSS)
+
+href: especifica a URL / referência
+
+rel: nomeia
+
+
+Pode colocar a tag <script> no head e no body
+colocar no body permite que o conteúdo da página seja carregado primeiro
+e o script em seguida
