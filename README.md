@@ -2,8 +2,8 @@
 
 Resultado de um curso que fiz "Crie um Site Simples usando HTML, CSS e JavaScript
 Site do curso: https://ead.escoladotrabalhador40.com.br/#/ 
-Escola do Trabalhador 4.0
-Algo que preciso melhorar: o rótulo do botão, fica somente o nome Claro, mesmo alterarndo para o tema escuro
+
+
 
 
 <div align=center>
